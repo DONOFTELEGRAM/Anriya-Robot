@@ -253,7 +253,7 @@ def gban(update: Update, context: CallbackContext):  # sourcery no-metrics
             "#GBAN"
             "You have been marked as Malicious and as such have been banned from any future groups we manage."
             f"\n<b>Reason:</b> <code>{html.escape(user.reason)}</code>"
-            f"</b>Appeal Chat:</b> @YorkTownEagleUnion",
+            f"</b>Appeal Chat:</b> @ibotsSupport",
             parse_mode=ParseMode.HTML,
         )
     except:
