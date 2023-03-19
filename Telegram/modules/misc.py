@@ -346,9 +346,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [GitHub](https://github.com/ITZ-ZAID) | ⍚ [GitLab](https://gitlab.com/ITZ-ZAID)\n\n"
+                    + "\n\n⍙ [Support](https://t.me/ibotssupport) | ⍚ [Updates](https://t.me/ibotsupdates)\n\n"
                 )
-                + "╘══「 by [Zaid](https://t.me/Timesisnotwaiting) 」\n"
+                + "╘══「 by [Esther](https://t.me/MissEstherBot) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
