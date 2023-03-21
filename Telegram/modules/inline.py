@@ -43,7 +43,7 @@ def inlinequery(update: Update, _) -> None:
     results: List = []
     inline_help_dicts = [
         {
-            "title": "Account info on Anie",
+            "title": "Account info on Esther",
             "description": "Look up a Telegram account in Anie database",
             "message_text": "Click the button below to look up a person in Anie database using their Telegram ID",
             "thumb_urL": "https://telegra.ph/file/8fd1b2351135e778700a0.jpg",
@@ -51,7 +51,7 @@ def inlinequery(update: Update, _) -> None:
         },
         {
             "title": "About",
-            "description": "Know about Anie",
+            "description": "Know about Esther",
             "message_text": "Click the button below to get to know about Kigyo.",
             "thumb_urL": "https://telegra.ph/file/8fd1b2351135e778700a0.jpg",
             "keyboard": ".about ",
